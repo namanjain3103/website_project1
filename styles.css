@@ -1,0 +1,209 @@
+
+
+/**
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+ a, button {
+    font-family: "open sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0% ;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    
+}
+
+.logo {
+    cursor: pointer;
+    border-radius: 50%;
+    margin-right:10px;
+    float: right
+    
+
+}
+
+.logo_text {
+   
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+    
+    padding: 0px;
+    display: inline-block;
+    inline-size: auto;
+}
+
+.r_color {
+    color: rgb(255, 60, 92);
+}
+
+.nav_link a {
+    display: inline-block; 
+    padding: 0px 10px ;
+    float: right;
+    
+}
+
+.nav_link  a {
+    transition: all 0.3s ease 0s;
+}
+
+.navbar  a:hover{
+    color: #0088a9
+}
+
+button {
+    margin-top: auto;   
+    margin-left: 20px;
+    margin-right: 0px;
+    padding: 8px 20px ;
+    background-color: rgba(0,136,169,1);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    float: right;
+}
+
+
+button:hover {
+    background-color: rgba(0,136,169,0.8); ;
+}**/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+    
+}
+        
+        nav {
+            background-color: #313444;
+            border-radius: 0px;
+            height:70px;
+            width: 100%;
+            position: fixed;
+            display: inline;
+        }
+
+        nav ul {
+            float: right;
+            margin-right: 40px;
+
+        }
+
+        nav li {
+            
+            list-style: none;
+            margin: 0px 8px;
+            display: inline;
+            line-height: 70px;
+        }
+        .navbar a {
+            padding: 7px 10px;
+            text-decoration: none;
+            color: #edf0f1;
+            font-size: 18px;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+            text-align: center;
+            
+        }
+
+        .navbar a:hover {
+            color: #0088a9
+        }
+
+            button {
+            margin-top: 3%;   
+           
+            padding: 8px 20px ;
+            background-color: rgba(0,136,169,1);
+            border:none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3 ease 0s;
+            float: right;
+            
+        }
+        button:hover {
+            background-color: rgba(0,136,169,0.8) ;
+        }
+        .r_color {
+            color: rgb(255, 60, 92);
+        }
+
+       img{
+            width: 50px;
+            border-radius: 60px;
+            cursor: pointer;            
+            float: left;
+            margin: 10px 20px;
+        }
+        .logo{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            cursor: pointer;
+            font-size: 25px;
+            color: black;
+            text-decoration: none;
+            padding: 0 5px;
+            line-height: 70px;
+            margin: auto;
+          
+        }
+       nav #icon{
+           color:rgba(0,136,169,0.8);
+           font-size: 20px;
+           line-height: 70px;
+           float: right;
+           margin-right: 40px;
+           cursor: pointer;
+        }
+        .margin{
+            margin: 5% 0;
+        }
+        .parallax{
+            background-image: url(img/spiderman.jpg);
+            background-position-y:70px;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .parallax-inner{
+            padding-bottom: 30%;
+            padding-right: 70%;
+        }
+        
+        .parallax h1{
+            text-align: left;
+            font-size: 500%;
+            color: white;
+            letter-spacing: 3px;
+            padding-top: 0px;
+            padding-bottom: 350px;
+        }
+ 
+     
