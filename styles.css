@@ -215,7 +215,7 @@ button:hover {
         }
 
         .parallax{
-            background-image: url(img/spiderman.jpg);
+            background-image: url(img/bg1.gif);
             background-size: cover;
             background-attachment: fixed;
         }
