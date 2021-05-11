@@ -86,29 +86,12 @@ button {
     cursor: pointer;
     transition: all 0.3 ease 0s;
     float: right;
-}
 
 
-button:hover {
-    background-color: rgba(0,136,169,0.8); ;
-}**/
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-   
-    
-}
-        
-        nav {
-            background-color: #313444;
-            border-radius: 0px;
-            height:70px;
-            width: 100%;
-            position: fixed;
-            display: inline;
-        }
+
+
+
 
         nav ul {
             float: right;
@@ -123,7 +106,40 @@ button:hover {
             display: inline;
             line-height: 70px;
         }
-        .navbar a {
+
+
+
+
+
+}
+
+
+button:hover {
+    background-color: rgba(0,136,169,0.8); ;
+}**/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+       
+      
+        nav ul {
+            float: right;
+            margin-right: 40px;
+
+        }
+
+        nav li {
+            
+            list-style: none;
+            margin: 0px 8px;
+            display: inline;
+            line-height: 70px;
+        }
+        .navbar {
             padding: 7px 10px;
             text-decoration: none;
             color: #edf0f1;
@@ -134,49 +150,53 @@ button:hover {
             
         }
 
-        .navbar a:hover {
-            color: #0088a9
+        .navbar:hover {
+            color: #EC3750;
         }
 
             button {
-            margin-top: 3%;   
+            margin-top: 4%;   
            
-            padding: 8px 20px ;
-            background-color: rgba(0,136,169,1);
+            padding: 7px 18px ;
+            background-color: #EC3750;
             border:none;
-            border-radius: 50px;
+            border-radius: 10px;
             cursor: pointer;
             transition: all 0.3 ease 0s;
             float: right;
             
         }
         button:hover {
-            background-color: rgba(0,136,169,0.8) ;
+            background-color:#02329D ;
         }
         .r_color {
-            color: rgb(255, 60, 92);
+            color: #EC3750;
         }
+
+        header{
+            background-color:#313444;
+            }
 
        img{
             width: 50px;
             border-radius: 60px;
             cursor: pointer;            
             float: left;
-            margin: 10px 20px;
+            margin: 0px 20px;
         }
         .logo{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             cursor: pointer;
-            font-size: 25px;
+            font-size: 20px;
             color: black;
             text-decoration: none;
             padding: 0 5px;
-            line-height: 70px;
+            line-height: 75px;
             margin: auto;
           
         }
        nav #icon{
-           color:rgba(0,136,169,0.8);
+           color:#02329D;
            font-size: 20px;
            line-height: 70px;
            float: right;
@@ -184,11 +204,18 @@ button:hover {
            cursor: pointer;
         }
         .margin{
-            margin: 5% 0;
+            margin: 0 0;
+            background-image: url(img/spiderman.jpg);
+            overflow: hidden;
+            filter: blur(0px);
         }
+
+        .text{
+            filter: blur(-10px);
+        }
+
         .parallax{
             background-image: url(img/spiderman.jpg);
-            background-position-y:70px;
             background-size: cover;
             background-attachment: fixed;
         }
@@ -206,4 +233,208 @@ button:hover {
             padding-bottom: 350px;
         }
  
-     
+
+
+
+        font-family: 'Poppins';
+        font-size: 22px;
+        overflow-x: hidden;
+      }
+  
+      .card p {
+        font-family: "Poppins";
+      }
+  
+      .card {
+        width: 200px;
+        height: 325px;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+      }
+  
+      .title {
+        color: black;
+        font-size: 15px;
+      }
+  
+      .mentorcard h2 {
+        font-family: "Poppins", sans-serif;
+        color: black;
+        font-size: 22px;
+      }
+  
+      .mentorcard p {
+        font-family: "Poppins";
+      }
+  
+      .mentorcard {
+        width: 250px;
+        height: 450px;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+      }
+  
+      .mentortitle {
+        color: black;
+        font-size: 20px;
+      }
+  
+      .card h2 {
+        font-family: "Poppins", sans-serif;
+        color: black;
+        font-size: 18px;
+      }
+  
+      .grid {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        margin: 0px;
+      }
+  
+      .card a {
+        font-size: 25px;
+        color: rgb(255, 60, 92);
+        padding: 15px;
+      }
+  
+      .card img {
+        border-radius: 50%;
+      }
+  
+      .mentorcard a {
+        font-size: 30px;
+        color: rgb(255, 60, 92);
+        padding: 18px;
+      }
+  
+      .mentorcard img {
+        border-radius: 50%;
+      }
+  
+      div {
+        margin: 0px;
+      }
+  
+      .logo_text {
+        cursor: pointer;
+        font-size: 20px;
+        color: #1d1d1d;
+        text-decoration: none;
+        margin-inline: right;
+  
+      }
+  
+      .r_color {
+        color: rgba(229, 62, 62);
+      }
+  
+      @keyframes stroke-offset{
+          100% {stroke-dashoffset: -100%;}
+        }
+  
+        
+  
+        .dwoc-card {
+          background-color: transparent;
+          width: 450px;
+          height: 450px;
+          perspective: 1000px; 
+          margin-top: 40px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 40px;
+          border-radius:30px;
+        }
+  
+        .dwoc-card-struct {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          transition: transform 0.8s;
+          transform-style: preserve-3d;
+          border-radius:30px;
+        }
+  
+        .dwoc-card:hover .dwoc-card-struct {
+          transform: rotateY(180deg);
+        }
+        
+        .dwoc-card-front, .dwoc-card-back {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          backface-visibility: hidden;
+          border-radius:30px;
+        }
+  
+        
+        .dwoc-card-back {
+          background-image: linear-gradient(#faa648, #fd6141);
+          color: #faa648;
+          transform: rotateY(180deg);
+        }
+  
+        .dwoc{
+          margin-top: 15px;
+          margin-bottom: 0px;
+        }
+  
+        .dwoc-card-back h1{
+          font-family: "Poppins";
+          vertical-align: middle;
+          font-size: 25px;
+          text-align:center;
+          color:black;
+          font-weight: lighter;
+          margin-top:150px;
+          padding: 10px;
+          margin-bottom: 0px;
+        }
+  
+        .text h1{
+          color: black;
+          font-family:"Poppins";
+          margin-top: 10px;
+          font-size: 30px;
+        }
+  
+        /* Dropdown Button */
+  .dropbtn {
+  
+    color: text-gray-900;
+    margin-right:18px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
