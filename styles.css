@@ -205,13 +205,14 @@ button:hover {
         }
         .margin{
             margin: 0 0;
-            background:#313444;
+            background-image: url(img/ssb.PNG);
             overflow: hidden;
             filter: blur(0px);
         }
 
         .text{
-            filter: blur(-10px);
+            color: #EC3750;
+
         }
 
         .parallax{
