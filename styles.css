@@ -59,6 +59,16 @@ header{
   margin-bottom: -4%;
 }
 
+.in_logo1{
+  width: 360px;
+  border-radius: 270px;
+  cursor: pointer;            
+      margin: auto;
+      margin-top: -22%;
+      margin-bottom: -10%;
+      text-align: center;
+  
+}
 
 .logo{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -89,15 +99,6 @@ nav #icon{
 
 .text{
   color: #EC3750;
-}
-
-.p_text{
-  margin-top: -4%;
-  font-size: 65px;
-  color: white;
-  cursor: pointer;
-  overflow: hidden;
-  display: inline-block;
 }
 
 .parallax{
@@ -162,11 +163,11 @@ div {
   perspective: 1000;
   border-radius:30px;
   display: inline-block;
-  margin:5%;
-  
+  align-items: center;
+  margin: auto;
+  margin: 5%;
   margin-left: 11%;
 
-  align-items: center;
 }
 
 .event-card-struct {
@@ -211,18 +212,19 @@ div {
   color:black;
   font-weight: lighter;
   padding: 10px;
-  margin-bottom: 0px;
+  
 }
 
 .text h1{
   color: black;
   font-family:"Poppins";
+  margin: auto;
   margin-top: 10px;
   font-size: 30px;
 }
   
 .wrapper {
-	margin: auto auto 100px auto;
+	margin: auto ;
 	max-width: inherit;
   align-items: center;
   
@@ -231,10 +233,30 @@ div {
 .container {
   display:flex;
   align-items: center;
+  margin: auto;
   margin-left: 5%;
 
 }
 
+.p_text{
+  margin-top: -4%;
+  font-size: 65px;
+  color: white;
+  cursor: pointer;
+  overflow: hidden;
+  display: inline-block;
+  
+}
+.p_text1{
+  font-size: 65px;
+  color: white;
+  cursor: pointer;
+  overflow: hidden;
+  display: center;
+  text-align: center;
+  margin: auto;
+  
+}
 .p_text2{
   margin-top: -20%;
   margin-bottom: -10%;
