@@ -1,8 +1,7 @@
 *{
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
-   
+  padding: 0;  
 }
              
 .navbar {
@@ -10,282 +9,263 @@
   text-decoration:none;
   color:#EC3750 ;
   font-size: 16px;
-            text-transform: uppercase;
-            transition: all 0.3s ease;
-            text-align: center;
-            
-            
-        }
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  text-align: center;
+}
 
-        .navbar:hover {
-            color: #02329D;
-        }
+.navbar:hover {
+  color: #02329D;
+}
 
-            button {
-            margin-top: 4%;   
-            padding: 7px 18px ;
-            background-color: #EC3750;
-            border:none;
-            border-radius: 10px;
-            cursor: pointer;
-            transition: all 0.3 ease 0s;
-            float: right;
-            
-        }
-        button:hover {
-            background-color:#02329D ;
-        }
-        .r_color {
-            color: #EC3750;
-        }
+button {
+  margin-top: 4%;   
+  padding: 7px 18px ;
+  background-color: #EC3750;
+  border:none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;
+  float: right;
+}
 
-        header{
-            background-color:#313444;
-            }
+button:hover {
+  background-color:#02329D ;
+}
 
-       .tech_logo{
-            width: 60px;
-            border-radius: 60px;
-            cursor: pointer;            
-            float: left;
-            margin: 0px 20px;
-        }
-        .logo{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            cursor: pointer;
-            font-size: 22px;
-            color: white;
-            text-decoration: none;
-            padding: 0 0px;
-            line-height: 75px;
-            margin: auto;
-          
-        }
-       nav #icon{
-           color:#02329D;
-           font-size: 20px;
-           line-height: 70px;
-           float: right;
-           margin-right: 40px;
-           cursor: pointer;
-        }
-        .margin{
-            
-            padding: 4%;
-            margin: 0 0;
-            background:#313444;
-            overflow: hidden;
-            filter: blur(0px);
-        }
+.r_color {
+  color: #EC3750;
+}
 
-        .text{
-            color: #EC3750;
+header{
+  background-color:#313444;
+}
 
-        }
-   
-        .p_text{
-            margin-top: -4%;
-            font-size: 65px;
-            color: white;
-            cursor: pointer;
-            overflow: hidden;
-            display: inline-block;
+.tech_logo{
+  width: 60px;
+  border-radius: 60px;
+  cursor: pointer;            
+  float: left;
+  margin: 0px 20px;
+}
 
+.logo{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+  padding: 0 0px;
+  line-height: 75px;
+  margin: auto;
+}
 
+nav #icon{
+  color:#02329D;
+  font-size: 20px;
+  line-height: 70px;
+  float: right;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.margin{ 
+  padding: 4%;
+  margin: 0 0;
+  background:#313444;
+  overflow: hidden;
+  filter: blur(0px);
+}
 
-        }
+.text{
+  color: #EC3750;
+}
 
-        .parallax{
-            background-image: url(img/ss1.PNG);
-            background-size: cover;
-            background-attachment: fixed;
-        }
-        .parallax-inner{
-            padding-bottom: 30%;
-            padding-right: 70%;
-        }
+.p_text{
+  margin-top: -4%;
+  font-size: 65px;
+  color: white;
+  cursor: pointer;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.parallax{
+  background-image: url(img/ss1.PNG);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.parallax-inner{
+  padding-bottom: 30%;
+  padding-right: 70%;
+}
         
-        .parallax h1{
-            text-align: left;
-            font-size: 500%;
-            color: white;
-            letter-spacing: 3px;
-            padding-top: 0px;
-            padding-bottom: 350px;
-            
-        }
- 
+.parallax h1{
+  text-align: left;
+  font-size: 500%;
+  color: white;
+  letter-spacing: 3px;
+  padding-top: 0px;
+  padding-bottom: 350px;
+}
+.card p {
+  font-family: "Poppins";
+}
+.card {
+  width: 200px;
+  height: 325px;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
 
+.title {
+  color: black;
+  font-size: 15px;
+}
 
+div {
+  margin: 0px;
+}
 
+.logo_text {
+  cursor: pointer;
+  font-size: 20px;
+  color: #1d1d1d;
+  text-decoration: none;
+  margin-inline: right;
+}
 
+.r_color {
+  color: rgba(229, 62, 62);
+}
+  
+@keyframes stroke-offset{
+  100% {stroke-dashoffset: -100%;}
+}
+.card{
+  background-color: transparent;
+  width: fit-content;
+  height: fit-content;
+}
+.event-card {
+  background-color: transparent;
+  width: 450px;
+  height: 450px;
+  perspective: 1000;
+  border-radius:30px;
+  display: inline-block;
+  margin: 5%;
+}
 
-        
-    .card p {
-        font-family: "Poppins";
-      }
-  
-      .card {
-        width: 200px;
-        height: 325px;
-        margin: auto;
-        text-align: center;
-        padding: 10px;
-      }
-  
-      .title {
-        color: black;
-        font-size: 15px;
-      }
+.event-card-struct {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius:30px;
+  display: inline-block;
+}
 
-      div {
-        margin: 0px;
-      }
+.event-card:hover .event-card-struct {
+  transform: rotateY(180deg);
+}
+
+.event-card-front, .event-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius:30px;
+}
+
+.event-card-back {
+  background-image: linear-gradient(#faa648, #fd6141);
+  transform: rotateY(180deg);
+}
+
+.event{
+  border-radius: 30px;
+}
+
+.event-card-back h1{
+  font-family: "Poppins";
+  vertical-align: middle;
+  font-size: 25px;
+  text-align:center;
+  color:black;
+  font-weight: lighter;
+  margin-top:150px;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+.text h1{
+  color: black;
+  font-family:"Poppins";
+  margin-top: 10px;
+  font-size: 30px;
+}
   
-      .logo_text {
-        cursor: pointer;
-        font-size: 20px;
-        color: #1d1d1d;
-        text-decoration: none;
-        margin-inline: right;
-  
-      }
-  
-      .r_color {
-        color: rgba(229, 62, 62);
-      }
-  
-      @keyframes stroke-offset{
-          100% {stroke-dashoffset: -100%;}
-        }
-        .card{
-          background-color: transparent;
-          width: fit-content;
-          height: fit-content;
-        }
-        .event-card {
-          background-color: transparent;
-          width: 450px;
-          height: 450px;
-          perspective: 1000;
-          border-radius:30px;
-          display: inline-block;
-          margin: 5%;
-        }
-  
-        .event-card-struct {
-          position: relative;
-          width: 100%;
-          height: 100%;
-          text-align: center;
-          transition: transform 0.8s;
-          transform-style: preserve-3d;
-          border-radius:30px;
-          display: inline-block;
-        }
-  
-        .event-card:hover .event-card-struct {
-          transform: rotateY(180deg);
-        }
-        
-        .event-card-front, .event-card-back {
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          backface-visibility: hidden;
-          border-radius:30px;
-        }
-  
-        
-        .event-card-back {
-          background-image: linear-gradient(#faa648, #fd6141);
-          transform: rotateY(180deg);
-        }
-  
-        .event{
-          border-radius: 30px;
-        }
-  
-        .event-card-back h1{
-          font-family: "Poppins";
-          vertical-align: middle;
-          font-size: 25px;
-          text-align:center;
-          color:black;
-          font-weight: lighter;
-          margin-top:150px;
-          padding: 10px;
-          margin-bottom: 0px;
-        }
-  
-        .text h1{
-          color: black;
-          font-family:"Poppins";
-          margin-top: 10px;
-          font-size: 30px;
-        }
-  
-        /* Dropdown Button */
-  .dropbtn {
-  
-    color: text-gray-900;
-    margin-right:18px;
-    border: none;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
+/* Dropdown Button */
+.dropbtn {
+  color: text-gray-900;
+  margin-right:18px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
     display: block;
-  }
+}
   
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
-  
-
-
 .wrapper {
 	margin: auto auto 100px auto;
 	max-width: inherit;
 }
 
 .container {
-    
-        display:flex ;
-        
-    
+  display:flex ;
 }
 
 .p_text2{
-    margin-top: -20%;
-    margin-bottom: -10%;
-    font-size: 76px;
-    color: white;
-    cursor: pointer;
-    overflow: hidden;
-    text-align: center;
-	
+  margin-top: -20%;
+  margin-bottom: -10%;
+  font-size: 76px;
+  color: white;
+  cursor: pointer;
+  overflow: hidden;
+  text-align: center;
 }
 
 .list{
