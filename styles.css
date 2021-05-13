@@ -1,138 +1,15 @@
-
-
-
-/**
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
-
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: white;
-}
-
-.wrapper{
-    width: 1170px;
-    margin: 0 auto;
-}
-
- a, button {
-    font-family: "open sans", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: #edf0f1;
-    text-decoration: none;
-}
-
-header {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0% ;
-    align-items: center;
-    flex-wrap: wrap;
-    position: fixed;
-    
-}
-
-.logo {
-    cursor: pointer;
-    border-radius: 50%;
-    margin-right:10px;
-    float: right
-    
-
-}
-
-.logo_text {
-   
-    cursor: pointer;
-    font-family: sans-serif;
-    font-size: 20px;
-    color: #edf0f1;
-    text-decoration: none;
-    
-    padding: 0px;
-    display: inline-block;
-    inline-size: auto;
-}
-
-.r_color {
-    color: rgb(255, 60, 92);
-}
-
-.nav_link a {
-    display: inline-block; 
-    padding: 0px 10px ;
-    float: right;
-    
-}
-
-.nav_link  a {
-    transition: all 0.3s ease 0s;
-}
-
-.navbar  a:hover{
-    color: #0088a9
-}
-
-button {
-    margin-top: auto;   
-    margin-left: 20px;
-    margin-right: 0px;
-    padding: 8px 20px ;
-    background-color: rgba(0,136,169,1);
-    border:none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3 ease 0s;
-    float: right;
-
-
-
-
-
-
-
-        nav ul {
-            float: right;
-            margin-right: 40px;
-
-        }
-
-        nav li {
-            
-            list-style: none;
-            margin: 0px 8px;
-            display: inline;
-            line-height: 70px;
-        }
-
-
-
-
-
-}
-
-
-button:hover {
-    background-color: rgba(0,136,169,0.8); ;
-}**/
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
    
 }
-       
-      
-       
-        .navbar {
-            padding: 7px 10px;
-            text-decoration:none;
-            color:#EC3750 ;
-            font-size: 16px;
+             
+.navbar {
+  padding: 7px 10px;
+  text-decoration:none;
+  color:#EC3750 ;
+  font-size: 16px;
             text-transform: uppercase;
             transition: all 0.3s ease;
             text-align: center;
@@ -260,62 +137,7 @@ button:hover {
         color: black;
         font-size: 15px;
       }
-  
-      .mentorcard h2 {
-        font-family: "Poppins", sans-serif;
-        color: black;
-        font-size: 22px;
-      }
-  
-      .mentorcard p {
-        font-family: "Poppins";
-      }
-  
-      .mentorcard {
-        width: 250px;
-        height: 450px;
-        margin: auto;
-        text-align: center;
-        padding: 10px;
-      }
-  
-      .mentortitle {
-        color: black;
-        font-size: 20px;
-      }
-  
-      .card h2 {
-        font-family: "Poppins", sans-serif;
-        color: black;
-        font-size: 18px;
-      }
-  
-      .grid {
-        display: grid;
-        grid-template-columns: auto auto auto auto auto;
-        margin: 0px;
-      }
-  
-      .card a {
-        font-size: 25px;
-        color: rgb(255, 60, 92);
-        padding: 15px;
-      }
-  
-      .card img {
-        border-radius: 50%;
-      }
-  
-      .mentorcard a {
-        font-size: 30px;
-        color: rgb(255, 60, 92);
-        padding: 18px;
-      }
-  
-      .mentorcard img {
-        border-radius: 50%;
-      }
-  
+
       div {
         margin: 0px;
       }
@@ -336,22 +158,22 @@ button:hover {
       @keyframes stroke-offset{
           100% {stroke-dashoffset: -100%;}
         }
-  
-        
-  
-        .dwoc-card {
+        .card{
+          background-color: transparent;
+          width: fit-content;
+          height: fit-content;
+        }
+        .event-card {
           background-color: transparent;
           width: 450px;
           height: 450px;
-          perspective: 1000px; 
-          margin-top: 40px;
-          margin-left: auto;
-          margin-right: auto;
-          margin-bottom: 40px;
+          perspective: 1000;
           border-radius:30px;
+          display: inline-block;
+          margin: 5%;
         }
   
-        .dwoc-card-struct {
+        .event-card-struct {
           position: relative;
           width: 100%;
           height: 100%;
@@ -359,13 +181,14 @@ button:hover {
           transition: transform 0.8s;
           transform-style: preserve-3d;
           border-radius:30px;
+          display: inline-block;
         }
   
-        .dwoc-card:hover .dwoc-card-struct {
+        .event-card:hover .event-card-struct {
           transform: rotateY(180deg);
         }
         
-        .dwoc-card-front, .dwoc-card-back {
+        .event-card-front, .event-card-back {
           position: absolute;
           width: 100%;
           height: 100%;
@@ -374,18 +197,16 @@ button:hover {
         }
   
         
-        .dwoc-card-back {
+        .event-card-back {
           background-image: linear-gradient(#faa648, #fd6141);
-          color: #faa648;
           transform: rotateY(180deg);
         }
   
-        .dwoc{
-          margin-top: 15px;
-          margin-bottom: 0px;
+        .event{
+          border-radius: 30px;
         }
   
-        .dwoc-card-back h1{
+        .event-card-back h1{
           font-family: "Poppins";
           vertical-align: middle;
           font-size: 25px;
