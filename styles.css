@@ -105,6 +105,7 @@ nav #icon{
   background-image: url(img/binary.png);
   background-size: cover;
   background-attachment: fixed;
+  width: 100%;
 }
 
 .parallax-inner{
@@ -136,10 +137,6 @@ nav #icon{
   font-size: 15px;
 }
 
-div {
-  margin: 0px;
-}
-
 .logo_text {
   cursor: pointer;
   font-size: 20px;
@@ -158,15 +155,12 @@ div {
 
 .event-card {
   background-color: transparent;
-  width: 350px;
-  height: 350px;
+  width: 20%;
+  height: fit-content;
   perspective: 1000;
   border-radius:30px;
   display: inline-block;
   align-items: center;
-  margin: auto;
-  margin: 5%;
-  margin-left: 11%;
 
 }
 
@@ -200,8 +194,8 @@ div {
 
 .event{
   border-radius: 30px;
-  width: 350px;
-  height: 350px;
+  width: 100%;
+  height: auto;
 }
 
 .event-card-back h1{
@@ -224,8 +218,7 @@ div {
 }
   
 .wrapper {
-	margin: auto ;
-	max-width: inherit;
+	width: 100%;
   align-items: center;
   
 }
@@ -233,9 +226,7 @@ div {
 .container {
   display:flex;
   align-items: center;
-  margin: auto;
-  margin-left: 5%;
-
+  width: 100%;
 }
 
 .p_text{
