@@ -193,7 +193,7 @@ div {
 }
 
 .event-card-back {
-  background-image: linear-gradient(#1B1C37,#313444 );
+  background-image: linear-gradient(#1B1C37,#313444);
   transform: rotateY(180deg);
 }
 
