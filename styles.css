@@ -3,11 +3,7 @@
   margin: 0;
   padding: 0;  
 }
-
-.body{
-  font-family: "Poppins";
-}
-
+             
 .navbar {
   padding: 7px 10px;
   text-decoration:none;
@@ -67,10 +63,10 @@ header{
   width: 360px;
   border-radius: 270px;
   cursor: pointer;            
-  margin: auto;
-  margin-top: -22%;
-  margin-bottom: -10%;
-  text-align: center;
+      margin: auto;
+      margin-top: -22%;
+      margin-bottom: -10%;
+      text-align: center;
   
 }
 
@@ -93,7 +89,6 @@ nav #icon{
   margin-right: 40px;
   cursor: pointer;
 }
-
 .margin{ 
   padding: 4%;
   margin: 0 0;
@@ -110,20 +105,6 @@ nav #icon{
   background-image: url(img/binary.png);
   background-size: cover;
   background-attachment: fixed;
-}
-
-.parallax1{
-  background-image: url(img/binary.png);
-  background-size: cover;
-  background-attachment: fixed;
-  width: 100%;
-  padding: 10px;
-  margin: auto;
-}
-
-.container1{
-  width: 1250px;
-  margin: auto;
 }
 
 .parallax-inner{
@@ -168,7 +149,7 @@ div {
 }
 
 .r_color {
-  color: rgba(229, 62, 62);
+  color: #EC3750;
 }
   
 @keyframes stroke-offset{
@@ -181,9 +162,9 @@ div {
   height: 300px;
   perspective: 1000;
   border-radius:30px;
-  display: inline-block;
+  display: inline-flex;
   align-items: center;
-  margin: 5px;
+  margin-bottom: 4%;
 }
 
 .event-card-struct {
@@ -195,6 +176,8 @@ div {
   transform-style: preserve-3d;
   border-radius:30px;
   display: inline-block;
+  margin-inline: 5%;
+  margin-bottom: auto;
 }
 
 .event-card:hover .event-card-struct {
@@ -210,14 +193,14 @@ div {
 }
 
 .event-card-back {
-  background-image: linear-gradient(#268679, #06221F );
+  background-image: linear-gradient(#1B1C37,#313444 );
   transform: rotateY(180deg);
 }
 
 .event{
   border-radius: 30px;
-  width: 100%;
-  height: auto;
+  width: 300px;
+  height: 300px;
 }
 
 .event-card-back h1{
@@ -225,7 +208,7 @@ div {
   vertical-align: middle;
   font-size: 25px;
   text-align:center;
-  color:black;
+  color:white;
   font-weight: lighter;
   padding: 10px;
   
@@ -240,13 +223,20 @@ div {
 }
   
 .wrapper {
+	margin: auto;
 	max-width: initial;
   align-items: center;
+  margin-bottom: 6%;
+  margin-left:5%;
+  
 }
 
 .container {
   display:inline-flex;
   align-items: center;
+
+  
+
 }
 
 .p_text{
@@ -281,4 +271,10 @@ div {
 
 .list{
   display: inline-block;
+}
+
+.register{
+  float:none;
+  border-radius: 8px;
+  color: white;
 }
