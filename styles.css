@@ -105,7 +105,6 @@ nav #icon{
   background-image: url(img/binary.png);
   background-size: cover;
   background-attachment: fixed;
-  width: 100%;
 }
 
 .parallax-inner{
@@ -137,6 +136,10 @@ nav #icon{
   font-size: 15px;
 }
 
+div {
+  margin: 0px;
+}
+
 .logo_text {
   cursor: pointer;
   font-size: 20px;
@@ -155,13 +158,13 @@ nav #icon{
 
 .event-card {
   background-color: transparent;
-  width: 20%;
-  height: fit-content;
+  width: 300px;
+  height: 300px;
   perspective: 1000;
   border-radius:30px;
-  display: inline-block;
+  display: inline-flex;
   align-items: center;
-
+  margin-bottom: 4%;
 }
 
 .event-card-struct {
@@ -173,6 +176,8 @@ nav #icon{
   transform-style: preserve-3d;
   border-radius:30px;
   display: inline-block;
+  margin-inline: 5%;
+  margin-bottom: auto;
 }
 
 .event-card:hover .event-card-struct {
@@ -194,8 +199,8 @@ nav #icon{
 
 .event{
   border-radius: 30px;
-  width: 100%;
-  height: auto;
+  width: 300px;
+  height: 300px;
 }
 
 .event-card-back h1{
@@ -218,15 +223,20 @@ nav #icon{
 }
   
 .wrapper {
-	width: 100%;
+	margin: auto;
+	max-width: initial;
   align-items: center;
+  margin-bottom: 6%;
+  margin-left:5%;
   
 }
 
 .container {
-  display:flex;
+  display:inline-flex;
   align-items: center;
-  width: 100%;
+
+  
+
 }
 
 .p_text{
@@ -250,12 +260,13 @@ nav #icon{
 }
 .p_text2{
   margin-top: -20%;
-  margin-bottom: -10%;
+  margin-bottom: -2%;
   font-size: 76px;
   color: white;
   cursor: pointer;
   overflow: hidden;
   text-align: center;
+
 }
 
 .list{
