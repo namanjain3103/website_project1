@@ -195,6 +195,8 @@ div {
 .event-card-back {
   /**background-image: linear-gradient(#1B1C37,#313444);**/
   transform: rotateY(180deg);
+  height: 300px;
+  width:300px;
 }
 
 .event{
