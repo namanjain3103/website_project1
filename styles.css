@@ -10,9 +10,8 @@
   color:#EC3750 ;
   font-size: 16px;
   text-transform: uppercase;
-  transition: all 0.3s ease;
-  text-align: center;
-  
+  transition: all 0.3s ease; 
+  font-weight: bold; 
 }
 
 .navbar:hover {
@@ -66,11 +65,8 @@ header{
   cursor: pointer;            
       margin: auto;
       margin-top: -22%;
-      margin-bottom: 0%;
-      
+      margin-bottom: auto;
       text-align: center;
-      
-  
 }
 
 .logo{
@@ -79,7 +75,6 @@ header{
   font-size: 22px;
   color: white;
   text-decoration: none;
-  padding: 0 0px;
   line-height: 75px;
   margin: auto;
 }
