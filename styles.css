@@ -97,6 +97,13 @@ nav #icon{
 
 .text{
   color: #EC3750;
+  text-align: center;
+  text-decoration: solid;
+  text-transform: inherit;
+  letter-spacing: inherit;
+  text-shadow: white;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .parallax{
