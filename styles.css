@@ -33,7 +33,7 @@ button:hover {
   background-color:#02329D ;
 }
 
-.r_color {
+.r_color { 
   color: #EC3750;
 }
 
@@ -277,4 +277,15 @@ div {
   float:none;
   border-radius: 8px;
   color: white;
+}
+.card_content{
+  padding: 6px 10px;
+  color: white;
+  text-align:center;
+  text-decoration: solid;
+  text-transform: inherit;
+  letter-spacing: inherit;
+  text-shadow: white;
+ /* font-weight: bold;*/
+  font-size: 22px;
 }
